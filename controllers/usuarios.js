@@ -26,11 +26,8 @@ const postUsuarios = (req, res) => {
 
 const putUsuarios = (req, res) => {
 
-    const id = req.params.id;
-
     res.json({
         msg: 'put API - Controlador',
-        id
     })
 }
 

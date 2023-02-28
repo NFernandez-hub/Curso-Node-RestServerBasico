@@ -12,7 +12,7 @@ router.get('/', getUsuarios)
 
 router.post('/', postUsuarios)
 
-router.put('/:id', putUsuarios)
+router.put('/', putUsuarios)
 
 router.patch('/', patchUsuarios)
 
