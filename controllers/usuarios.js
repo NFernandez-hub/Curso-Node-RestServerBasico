@@ -65,9 +65,7 @@ const deleteUsuarios = async (req = request, res = response) => {
 
     const usuario = await Usuario.findByIdAndUpdate(id, { state: false })
 
-    res.json({
-        usuario
-    })
+    res.json(usuario)
 }
 
 module.exports = {
